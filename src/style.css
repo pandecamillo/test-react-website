@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+h1 {
+  text-align: center;
+  padding: 1em;
+}
+
+p {
+  margin-bottom: 2em;
+}
+
+.link,
+.link:visited {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: white 1px solid;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+
+.user p {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.user img {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 600px;
+}
